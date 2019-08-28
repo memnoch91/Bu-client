@@ -21,18 +21,6 @@ import Card from '../components/structural/Card';
                     <div className='column is-4'>
                         <Card />
                     </div>
-                    <div className='column is-4'>
-                        <Card />
-                    </div>
-                    <div className='column is-4'>
-                        <Card />
-                    </div>
-                    <div className='column is-4'>
-                        <Card />
-                    </div>
-                    <div className='column is-4'>
-                        <Card />
-                    </div>
                 </div>
             </Fragment>
         )

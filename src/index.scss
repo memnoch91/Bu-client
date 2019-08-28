@@ -1,7 +1,3 @@
-@import '../node_modules/bulma//bulma.sass';
-@import './styles/navbar.scss';
-@import './styles/paddings.scss';
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -16,4 +12,17 @@ code {
     monospace;
 }
 
+
+//variables
+$footer-background-color: #221c1e;
+$navbar-background-color: #221c1e;
+
+//shared
+@import './styles/shared.scss';
+@import './styles/paddings.scss';
+//component specific
+@import './styles/navbar.scss';
+@import './styles/footer.scss';
+//bulma
+@import '../node_modules/bulma//bulma.sass';
 

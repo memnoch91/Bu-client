@@ -1,0 +1,31 @@
+.cm-footer {
+  display: flex;
+  align-items: center;
+  a {
+    padding: 0.5em;
+    color: #ffffff;
+  }
+  a:hover {
+    color: #3273dc;
+  }
+
+  
+  nav {
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+    .cm-footer {
+        flex-flow: column;
+        nav {
+            ul {
+                li {
+                    display: flex;
+                    flex-flow: column wrap;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

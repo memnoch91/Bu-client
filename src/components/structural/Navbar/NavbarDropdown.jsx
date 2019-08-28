@@ -6,20 +6,20 @@ import { Link } from 'react-router-dom';
 function NavbarDropdown() {
     return (
         <div className='cm-nav-dropdown drop'>
-            <Link className='cm-navbar-link'>
-                Home
+            <Link to='/'>
+                HOME
             </Link>
-            <Link className='cm-navbar-link'>
-                Produse
+            <Link to='/produse'>
+                PRODUSE
             </Link>
-            <Link className='cm-navbar-link'>
-                Povestea
+            <Link to='/story'>
+                POVESTEA
             </Link>
-            <Link className='cm-navbar-link'>
+            <Link to='/contact'>
                 Contactează-ne
             </Link>
-            <Link className='cm-navbar-link'>
-                social - media -  outs
+            <Link to='/social'>
+                FB - INSTA -  @
             </Link>
         </div>
 

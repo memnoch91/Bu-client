@@ -32,33 +32,33 @@ class Navbar extends Component {
                 <nav className='cm-navbar' role='navigation' aria-label='main navigation'>
                     <div className='cm-navbar-brand'>
                         <Link to='/'>
-                            <img src={logo} alt='navbar brand' width='128' height='128' />
+                            <img className='d-block' src={logo} alt='navbar brand' width='128' height='128' />
                         </Link>
                     </div>
-                    <ul className='cm-navbar-left'>
-                        <li className='cm-navbar-link'>
+                    <ul className='cm-navbar-left plain-list'>
+                        <li >
                             <Link to='/'>
-                                Home
+                                HOME
                             </Link>
                         </li>
-                        <li className='cm-navbar-link'>
+                        <li >
                             <Link to='products'>
-                                Produse
+                                PRODUSE
                             </Link>
                         </li>
-                        <li className='cm-navbar-link'>
+                        <li >
                             <Link to='about us'>
-                                Povestea
+                                POVESTEA
                             </Link>
                         </li>
                     </ul>
-                    <ul className='cm-navbar-right'>
-                        <li className='cm-navbar-link'>
+                    <ul className='cm-navbar-right plain-list'>
+                        <li >
                             <Link to='/contact'>
                                 Contactează-ne
                         </Link>
                         </li>
-                        <li className='cm-navbar-link'>
+                        <li >
                             <Link to='/tbd'>
                                 TBD
                         </Link>
