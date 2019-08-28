@@ -83,23 +83,23 @@
     color: #3273dc;
   }
 
-  .drop-enter {
+  &.drop-enter {
     opacity: 0;
     transform: translateY(-200px);
   }
-  .drop-enter.drop-enter-active {
+  &.drop-enter-active {
     opacity: 1;
-    transform: translateY(200px);
-    transition: all 300ms, linear 300ms;
+    transform: translate(0, 0);
+    transition: all 400ms, linear 400ms;
   }
-  .drop-exit {
+  &.drop-exit {
     opacity: 1;
-    transform: translateY(200px);
+    transform: translate(0, 0);
   }
-  .drop-exit.drop-exit-active {
+  &.drop-exit-active {
     opacity: 0;
     transform: translateY(-200px);
-    transition: all 300ms, liner 300ms;
+    transition: all 400ms, liner 400ms;
   }
 }
 

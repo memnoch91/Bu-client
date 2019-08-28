@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-
-import { CSSTransition } from 'react-transition-group'
+import { CSSTransition } from 'react-transition-group';
 
 //assets
 import logo from '../../../assets/bu-logo.jpg';
@@ -77,7 +76,7 @@ class Navbar extends Component {
                 <nav className="cm-dropdown-container">
                     <CSSTransition
                         in={burgerIsOpen}
-                        timeout={300}
+                        timeout={400}
                         unmountOnExit
                         classNames='drop'
                     >

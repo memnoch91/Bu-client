@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // *** cm *** in the classes for the navbar below 'cm' stans for custom
 function NavbarDropdown() {
     return (
-        <div className='cm-nav-dropdown'>
+        <div className='cm-nav-dropdown drop'>
             <Link className='cm-navbar-link'>
                 Home
             </Link>
